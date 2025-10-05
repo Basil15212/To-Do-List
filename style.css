@@ -1,0 +1,98 @@
+body {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.container {
+max-width: 100%;
+width: 80%;
+margin: 20px auto;
+}
+.form {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(84, 106, 47);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.the-task {
+    background-color:rgb(41, 51, 23) ;
+    width:50%;
+    height: 80px;
+    font-size: 30px;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+}
+.add {
+    background-color:rgb(41, 51, 23) ;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.add:hover {
+    color:rgb(33, 40, 19) ;
+    background-color:white ;
+}
+.tasks {
+    
+}
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    background-color: rgb(84, 106, 47);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+.done {
+    opacity: 0.6;
+}
+.task span {
+    font-weight: normal;
+    color: white;
+    background-color: forestgreen;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.task span:hover{
+    color: forestgreen;
+    background-color: white;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+    background-color: rgb(84, 106, 47);
+    color: azure;
+    width: fit-content;
+    display: block;
+    margin: 30px auto;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+.clear-all {
+    font-weight: normal;
+    color: white;
+    background-color: forestgreen;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.clear-all:hover {
+    color: #89dc89;
+    background-color: #0d230d;
+}
