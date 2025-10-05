@@ -38,8 +38,10 @@ tasks.addEventListener("click",(e) => {
 })
 
 deleteAll.onclick= function () {
-    tasks.innerHTML =""
-    window.localStorage.clear()
+    tasks.innerHTML ="";
+    window.localStorage.clear();
+    arrayOfTasks = []
+    getDataFromLocalStorage()
 }
 addTasksToArray = function(taskText){
     let task = {
